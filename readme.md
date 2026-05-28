@@ -29,17 +29,22 @@ A Python based business automation tool that streamlines the billing process for
 - How to use an external Python library (PIL)
 - How to think like a developer - plan first, code second
 
-## System Architecture
+### System Architecture
 Data Collection     →    add_item()
 ↓
+
 Total Calculation   →    calculate_total()
 ↓
+
 Discount Engine     →    apply_discount()
 ↓
+
 Tax Computation     →    tax_calc()
 ↓
+
 Receipt Generation  →    save_receipt()
 ↓
+
 Pipeline Controller →    print_receipt()
 
 ### How To Install And Run
