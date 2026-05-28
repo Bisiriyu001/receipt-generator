@@ -1,5 +1,5 @@
 # Receipt Generator App
-A python terminal app that acts as a mini point of sale system. Users can add products, and the app automatically calculates discounts, tax, and generates a receipt as a PNG image.
+A Python based business automation tool that streamlines the billing process for retail and food businesses. The system handles the full billing pipeline from product entry to professional receipt generation.
 
 ### Preview
 ![Receipt Image Output](image/billing_receipt.png)
@@ -12,6 +12,12 @@ A python terminal app that acts as a mini point of sale system. Users can add pr
 - Generates and saves a receipt as a PNG image
 - Displays a full itemised breakdown
 
+### The Problem It Solves
+- Human calculation errors that cost businesses money
+- Slow billing process that frustrates customers
+- Unprofessional documentation for customers
+- No digital record keeping of transactions
+
 ### Built With
 - Python 3
 - Pillow (PIL) - for image generation
@@ -22,6 +28,19 @@ A python terminal app that acts as a mini point of sale system. Users can add pr
 - For loops and while loops in real world context
 - How to use an external Python library (PIL)
 - How to think like a developer - plan first, code second
+
+## System Architecture
+Data Collection     →    add_item()
+↓
+Total Calculation   →    calculate_total()
+↓
+Discount Engine     →    apply_discount()
+↓
+Tax Computation     →    tax_calc()
+↓
+Receipt Generation  →    save_receipt()
+↓
+Pipeline Controller →    print_receipt()
 
 ### How To Install And Run
 1. Clone the repository
