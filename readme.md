@@ -3,8 +3,8 @@
 A python terminal app that acts as a mini point of sale system. Users can add products, and the app automatically calculates discounts, tax, and generates a receipt as a PNG image.
 
 ### Preview
-![Receipt Image Output]("image/billing receipt.png")
-### Receipt Image Output
+![Receipt Image Output]("image/billing_receipt.png")
+### Fig: Receipt Image Output
 
 ### What This App Does
 
