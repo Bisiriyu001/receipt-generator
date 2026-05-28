@@ -3,7 +3,7 @@ A python terminal app that acts as a mini point of sale system. Users can add pr
 
 ### Preview
 ![Receipt Image Output](image/billing_receipt.png)
-### Fig: Receipt Image Output
+### Fig 1: Receipt Image Output
 
 ### What This App Does
 - Accepts unlimited product entries from the user
