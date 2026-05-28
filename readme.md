@@ -1,5 +1,4 @@
 # Receipt Generator App
-
 A python terminal app that acts as a mini point of sale system. Users can add products, and the app automatically calculates discounts, tax, and generates a receipt as a PNG image.
 
 ### Preview
@@ -7,7 +6,6 @@ A python terminal app that acts as a mini point of sale system. Users can add pr
 ### Fig: Receipt Image Output
 
 ### What This App Does
-
 - Accepts unlimited product entries from the user
 - Automatically applies 10% discount on orders over $500
 - Calculates 7.5% tax on the final amount
@@ -15,12 +13,10 @@ A python terminal app that acts as a mini point of sale system. Users can add pr
 - Displays a full itemised breakdown
 
 ### Built With
-
 - Python 3
 - Pillow (PIL) - for image generation
 
 ### What I Learned Building This
-
 - How to use functions and break problems into logical steps
 - Dictionary storage and retrieval
 - For loops and while loops in real world context
@@ -28,7 +24,6 @@ A python terminal app that acts as a mini point of sale system. Users can add pr
 - How to think like a developer - plan first, code second
 
 ### How To Install And Run
-
 1. Clone the repository
    git clone https://github.com/Bisiriyu001/receipt-generator.git
 
